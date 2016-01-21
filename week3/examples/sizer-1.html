@@ -1,0 +1,77 @@
+<html>
+  <head>
+
+    <title>Sizer Example</title>
+
+    <!--Styles-->
+
+    <style>
+      body {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 12px;
+      }
+
+      h1 { font-size: 1.5em; }
+      h2 { font-size: 1.2em; }
+    </style>
+
+  </head>
+  <body>
+
+    <!--Controls-->
+
+    <button id="size-12">Change to size 12</button><br />
+    <button id="size-14">Change to size 14</button><br />
+    <button id="size-16">Change to size 16</button><br />
+    <button id="size-18">Change to size 18</button><br />
+    <button id="size-20">Change to size 20</button><br />
+
+
+    <!--Content-->
+
+    <h1>Header</h1>
+    <h2>subtitle</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum.
+    </p>
+
+
+    <!--Functionality-->
+
+    <script type="text/javascript">
+      var size12 = function (size) {
+        document.body.style.fontSize = '12px';
+      }
+
+      var size14 = function (size) {
+        document.body.style.fontSize = '14px';
+      }
+
+      var size16 = function (size) {
+        document.body.style.fontSize = '16px';
+      }
+
+      var size18 = function (size) {
+        document.body.style.fontSize = '18px';
+      }
+
+      var size20 = function (size) {
+        document.body.style.fontSize = '20px';
+      }
+
+      document.getElementById('size-12').onclick = size12;
+      document.getElementById('size-14').onclick = size14;
+      document.getElementById('size-16').onclick = size16;
+      document.getElementById('size-18').onclick = size18;
+      document.getElementById('size-20').onclick = size20;
+    </script>
+
+
+  </body>
+</html>

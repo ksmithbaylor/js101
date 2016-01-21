@@ -1,0 +1,56 @@
+<html>
+  <head>
+
+    <title>Sizer Example</title>
+
+    <!--Styles-->
+
+    <style>
+      body {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 12px;
+      }
+
+      h1 { font-size: 1.5em; }
+      h2 { font-size: 1.2em; }
+    </style>
+
+  </head>
+  <body>
+
+    <!--Controls-->
+
+    <button id="size-12">Change to size 12</button><br />
+    <button id="size-14">Change to size 14</button><br />
+    <button id="size-16">Change to size 16</button><br />
+    <button id="size-18">Change to size 18</button><br />
+    <button id="size-20">Change to size 20</button><br />
+
+
+    <!--Content-->
+
+    <h1>Header</h1>
+    <h2>subtitle</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum.
+    </p>
+
+
+    <!--Functionality-->
+
+    <script type="text/javascript">
+      [12, 14, 16, 18, 20].forEach(function (size) {
+        document.getElementById('size-' + size).onclick = function () {
+          document.body.style.fontSize = size + 'px';
+        };
+      });
+    </script>
+
+  </body>
+</html>
