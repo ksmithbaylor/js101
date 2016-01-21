@@ -17,6 +17,7 @@ See the `examples` folder for some examples we looked at in class.
 ## Other resources
 
 [Cool event loop visualization #1](http://latentflip.com/loupe/?code=Y29uc29sZS5sb2coJ2JlZm9yZScpOwoKLy8gSW4gZml2ZSBzZWNvbmRzLCBwcmludCAiYXN5bmMiCnNldFRpbWVvdXQoZnVuY3Rpb24gKCkgewogIGNvbnNvbGUubG9nKCdhc3luYycpOwp9LCA1MDAwKTsKCmNvbnNvbGUubG9nKCdhZnRlcicpOw%3D%3D!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D)
+
 [Cool event loop visualization #2](http://latentflip.com/loupe/?code=Y29uc29sZS5sb2coJ2JlZm9yZScpOwoKLy8gSW4gZml2ZSBzZWNvbmRzLCBwcmludCAiYXN5bmMiCnNldFRpbWVvdXQoZnVuY3Rpb24gKCkgewogIGNvbnNvbGUubG9nKCdhc3luYycpOwp9LCA1MDAwKTsKCi8vIENvdW50IHRvIHRlbiwgdGhpcyB3aWxsIHRha2UgbG9uZ2VyIHRoYW4gdGhlIHRpbWVvdXQKZm9yICh2YXIgaSA9IDA7IGkgPCAxMDsgaSsrKTsKCmNvbnNvbGUubG9nKCdhZnRlcicpOw%3D%3D!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D)
 
 ## Reading
